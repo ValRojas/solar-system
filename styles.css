@@ -71,7 +71,7 @@ body{
 @keyframes hideOne
  {
     0%{
-        z-index: 10;
+        z-index: -10;
         transform: scale(0.7);
     }
     18%{
