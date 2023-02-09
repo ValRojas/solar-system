@@ -65,7 +65,7 @@ body{
     background-color: rgb(83, 94, 99);
     background-image: url(https://img.freepik.com/free-photo/gray-grunge-surface-wall-texture-background_1017-18216.jpg);
     background-repeat:repeat;
-    inset: 0px 0px 20px 10px rgb(44, 49, 51);
+    background-size: cover;
 }
 
 @keyframes hideOne
@@ -124,7 +124,7 @@ body{
 */
 
 
-/* PLANET TWO */
+/* VENUS */
 #venus{
     background-color:rgb(196, 170, 157);
     background-image: url(https://i.pinimg.com/originals/5c/8a/e9/5c8ae9d8f0ed47730c99d0cb25e8d576.jpg);
@@ -206,7 +206,7 @@ body{
     }
 }
 
-/* PLANET FOUR */
+/* MARS */
 #mars{
     background-color:rgb(201, 84, 0);
     background-image: url(https://media.istockphoto.com/id/488156684/photo/alien-planet-with-craters-4.jpg?s=612x612&w=0&k=20&c=Yi8aOsN6UWT2yqzTqJ_z9qwymTKIGyFNUXsBJkjVPNk=);
@@ -244,6 +244,48 @@ body{
     100%{
         z-index: 13;
         transform: scale(0.6);
+    }
+}
+
+/* Jupiter */
+
+#jupiter{
+    background-color: rgb(43, 126, 164);
+    background-image: url(https://i.pinimg.com/originals/52/eb/a9/52eba9b920d07cf85c8ff6b263a52dd7.jpg);
+    background-repeat:repeat;
+    background-size: cover;
+}
+
+#index-five{
+    animation: hideFive 12s infinite;
+}
+
+#wrapper-five{
+    left:100px;
+    top:120px
+}
+
+@keyframes hideFive
+ {
+    0%{
+        z-index: 14;
+        transform: scale(1);
+    }
+    18%{
+        z-index: 14;
+        transform: scale(1);
+    }
+    50%{
+        z-index: -14;
+        transform: scale(0.9);
+    }
+    80%{
+        z-index: -14;
+        transform: scale(0.9);
+    }
+    100%{
+        z-index: 14;
+        transform: scale(1);
     }
 }
 
