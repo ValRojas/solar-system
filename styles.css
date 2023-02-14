@@ -342,23 +342,27 @@ body{
 @keyframes hideSix
  {
     0%{
-        z-index: 14;
+        z-index: 15;
         transform: scale(1);
     }
     18%{
-        z-index: 14;
+        z-index: 15;
         transform: scale(1);
     }
     50%{
-        z-index: -14;
+        z-index: 15;
+        transform: scale(0.9);
+    }
+    70%{
+        z-index: -15;
         transform: scale(0.9);
     }
     80%{
-        z-index: -14;
+        z-index: -15;
         transform: scale(0.9);
     }
     100%{
-        z-index: 14;
+        z-index: -15;
         transform: scale(1);
     }
 }
