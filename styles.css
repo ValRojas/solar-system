@@ -303,7 +303,20 @@ body{
 /* Saturn */
 
 #saturn{
-    background-color: rgb(253, 255, 111);
+    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/i/ae5bb4aa-35a6-4195-a4fc-7046d019adbf/d85tbsj-8f0085fc-6d07-4e2a-a9ef-9411d3065ad1.png);
+    background-repeat:repeat;
+    background-size: cover;
+}
+
+#saturn::after{
+    width: 60px;
+    height: 92px;
+    border: solid 40px #b8b08d;
+    border-radius: 50%;
+    top: -50px; 
+    left: -40px; 
+    position: absolute;
+    transform: rotate3d(13, 28, 0, 83deg);  
 }
 
 #index-six{
